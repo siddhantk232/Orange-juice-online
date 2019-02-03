@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Permanent+Marker');
+
+nav ul li a,
+.brand-logo {
+  color: #ff5834;
+}
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Permanent Marker', cursive;
+}
+
+.no-shadows {
+  box-shadow: none !important;
+}
+
+.my_img {
+  margin-top: 12px;
+  height: 40px;
+}
+
+.landing_area {
+  background: url('../images/hero_img.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 100vh;
+  min-height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: .90;
+}
+
+.text-content {
+  padding-top: 20vh;
+}
+
+
+.welcome {
+  margin: 0;
+  font-size: 4rem;
+}
+
+.brand {
+  color: #ff5834;
+  margin: 5px 0 0 0;
+  font-size: 6rem;
+}
+
+.lead {
+  margin: 0;
+}
+
+.sticky {
+  opacity: 1;
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.orange-text {
+  color: #ff5834 !important;
+}
+
+.orange {
+  background-color: #ff5834 !important;
+}
+
+.box {
+  height: 100px;
+}
+
+.center-text-content {
+  text-align: center;
+}
+
+.google-play-badge {
+  width: 24rem;
+}
+
+
+@media screen and (max-width: 992px) {
+  .landing_area {
+    display: none;
+  }
+}
